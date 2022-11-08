@@ -40,7 +40,7 @@ nav {
 .begin-banner-right {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-content: center;
   margin-left: 15px
 }
 
@@ -58,21 +58,29 @@ nav {
   padding: 5px;
 }
 
+.begin-banner-btn {
+  width: 33%;
+  margin-left: 110px;
+}
+
 .begin-banner-btn,
 #submit {
-  background-color: aliceblue;
   cursor: pointer;
   outline: 0;
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
-  background-color: transparent;
   border: 1px solid transparent;
   padding: 6px 12px;
   font-size: 1rem;
   border-radius: .25rem;
   background-color: white;
+}
+
+.begin-banner-btn:hover {
+  color: white;
+  background-color: gray;
 }
 
 
