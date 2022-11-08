@@ -12,6 +12,11 @@ nav {
   padding: 20px;
 }
 
+.nav-item:hover {
+  color: red;
+  font-size: 31px;
+}
+
 .nav-item {
   text-decoration: none;
   list-style-type: none;
