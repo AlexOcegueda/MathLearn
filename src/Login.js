@@ -12,6 +12,8 @@ function Login() {
                 <br></br>
                 <input type='submit' value='Submit' id='submit'></input>
             </div>
+
+            <div className='dead-space'></div>
         </>
     )
 }

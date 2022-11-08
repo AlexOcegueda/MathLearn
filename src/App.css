@@ -114,3 +114,21 @@ nav {
   width: 10%;
   background-color: coral;
 }
+
+.dead-space {
+  padding: 260px;
+}
+
+/* footer */
+
+.footer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 10px;
+}
+
+footer {
+  color: lightgray;
+}
