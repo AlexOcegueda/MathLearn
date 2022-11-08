@@ -47,7 +47,6 @@ function Grades() {
                 <div className='grade-item-container'>
                     <div className='grade-item'>Extra</div>
                 </div>
-                
             </div>
         </>
     )
