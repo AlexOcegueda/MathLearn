@@ -133,6 +133,11 @@ nav {
   background-color: coral;
 }
 
+#submit:hover {
+  background-color: red;
+  color: white;
+}
+
 /* footer */
 
 .footer-container {
