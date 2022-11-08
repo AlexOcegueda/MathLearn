@@ -1,23 +1,27 @@
 /* Nav Bar */
-.nav {
+nav {
   display: flex;
-  justify-content: space-around;
-  border: 2px solid black;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
   background-color: black;
+  font-size: 30px;
 }
 
-.nav-container {
-  background-color: black;
+.nav-container-left {
+  padding-left: 5px;
 }
 
-.nav-item-container {
-  list-style-type: none;
+.nav-container-right {
+  display: flex;
+  justify-content: end;
 }
 
 .nav-item {
   text-decoration: none;
   list-style-type: none;
   color: coral;
+  padding: 0px 10px 0px 5px;
 }
 
 
@@ -26,13 +30,17 @@
   display: flex;
   justify-content:space-around;
   align-items: center;
+  background-color: coral;
 }
 
 .begin-banner-text {
   font-size: 24px;
-
 }
 
+.content-1-home-container, 
+.content-2-home-container {
+  padding: 5px;
+}
 
 
 .begin-banner-btn,
@@ -98,4 +106,34 @@
 }
 .begin-banner-btn:hover:before {
   transform: translateY(-50%) scale(2);
+}
+
+/* Grades list */
+
+.grades-header {
+  display: flex;
+  justify-content: center;
+}
+
+.grade-list-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content:baseline;
+  margin: 20px;
+}
+
+.grade-item-container {
+  background-color: coral;
+  border: 1px solid black;
+  display: flex;
+  justify-content: start;
+  border-radius: 1rem;
+  margin: 5px;
+}
+
+.grade-item {
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 30px;
+  margin: 5px
 }
