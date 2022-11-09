@@ -1,9 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+    const navigate = useNavigate();
+
     return (
-        
         <>
+
             <div className='begin-banner-container'>
                     
                 <div className='begin-banner-left'>
@@ -11,7 +15,8 @@ function Home() {
                 </div>
                     <div className='begin-banner-right'>
                     <h2 className='begin-banner-text'>Get Started Right Away Here!</h2>
-                    <button className='begin-banner-btn'>Begin</button>
+                    <button className='begin-banner-btn' 
+                    onClick={() => { navigate('/Grades')}}>Begin</button>
                 </div>
             </div>
             <div className='content-1-home-container'>
