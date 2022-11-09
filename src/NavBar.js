@@ -6,7 +6,7 @@ function NavBar() {
         <nav>
             <div className='nav-container-left'>
                 <Link to="/" className='nav-item'>Home</Link>
-                <Link to="/Grades" className='nav-item'>Grades</Link>
+                <Link to="/Grades" className='nav-item'>Math</Link>
             </div>
             <div className='nav-container-right'>
                 <Link to="/Login" className='nav-item'>Login</Link>
